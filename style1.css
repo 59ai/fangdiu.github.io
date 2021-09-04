@@ -15,6 +15,49 @@ a {
     text-decoration: none;
 }
 
+.top1{
+    background: #FF7F50;
+    --text: #fff;
+    --font-size: 16px;
+    width:240px;
+    padding: 16px 0px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: var(--font-size);
+    letter-spacing: .5px;
+    position:relative;
+    top:0px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: var(--font-size);
+    color: var(--text);
+    font-size: var(--font-size);
+}
+.top2{
+    border:1px solid #FF7F50;
+    background-color:rgba(255,127,80,0.3);
+    color: #fff;
+    font-size: 16px;
+    width:240px;
+    padding: 16px 0px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: var(--font-size);
+    letter-spacing: .5px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.button.rouse {
+    --background: #FFA07A;
+    --shadow: 0 2px 8px -1px rgba(21, 25, 36, 0.32);
+    --shadow-hover: 0 4px 20px -2px rgba(21, 25, 36, 0.5);
+}
+
 .button.yellow {
     --background: #FFD700;
     --shadow: 0 2px 8px -1px rgba(21, 25, 36, 0.32);
