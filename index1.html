@@ -8,13 +8,22 @@
 <title>Marco-Blong's</title>
 <link rel="stylesheet" type="text/css" href="style1.css" />
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
-<style type="text/css">
-	html{
-		background-image:url('https://cdn.jsdelivr.net/gh/59ai/pic1/bgav1.png');
-}
-	
-</style>
+
 </head>
+  <script type="text/javascript">
+    //<!CDATA[
+        var bodyBgs = [];
+        bodyBgs[0] = "https://cdn.jsdelivr.net/gh/59ai/pic1/bgav1.png";
+        bodyBgs[1] = "https://cdn.jsdelivr.net/gh/59ai/pic1/44030.png";
+		bodyBgs[1] = "https://cdn.jsdelivr.net/gh/59ai/pic1/16353.png";
+
+
+        var randomBgIndex = Math.round( Math.random() * 3 );
+
+    //输出随机的背景图
+        document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
+    //]]>
+    </script>
 <body style="background:rgba(0,0,0,.3);">
 <div style="padding-top: 30px;">
   <center>
